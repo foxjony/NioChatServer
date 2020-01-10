@@ -1,4 +1,4 @@
-// TCP Client (Port 4040)
+// TCP Client Test (Port 4040)
 
 import java.io.PrintWriter;
 import java.io.BufferedReader;
