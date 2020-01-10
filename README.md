@@ -6,6 +6,9 @@ https://gist.github.com/Botffy/3860641
 Сетевое программирование с Сокетами и Каналами
 http://javatutor.net/books/tiej/socket#_Toc39472939
 
+Сокеты в Java
+https://www.youtube.com/watch?v=fFekJ7myksk
+
 Как установить Java на CentOS
 https://www.youtube.com/watch?v=CSxCJlOivuo
 
