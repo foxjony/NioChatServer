@@ -1,3 +1,3 @@
 javac NioChatServer.java
-java NioChatServer 4040
+java NioChatServer 3000
 pause
