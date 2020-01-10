@@ -12,6 +12,12 @@ https://www.youtube.com/watch?v=fFekJ7myksk
 Как установить Java на CentOS
 https://www.youtube.com/watch?v=CSxCJlOivuo
 
+# Test
+
+Client.java for NioServerTest.java
+
+Ping/Pong 10 numbers 1-10. (Ping speed test)
+
 # Установка Java на Linux
 
 uname -r						        // Find out the system bit
