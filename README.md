@@ -1,4 +1,4 @@
-# NIO Server
+# NIO Chat Server
 
 NIO Chat Server
 https://gist.github.com/Botffy/3860641
@@ -52,4 +52,4 @@ javac NioChatServer.java		// Compile
 
 java NioChatServer 3000			// Run Server port 3000
 
-Run NIO Server 192.168.0.5:4041
+Started NIO Chat Server 192.168.0.10 port 3000
