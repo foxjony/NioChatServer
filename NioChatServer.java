@@ -1,9 +1,11 @@
-// TCP NIO Chat Server (Port 3000) (8.03.2020)
+// TCP NIO Chat Server (Port 3000)
+// (с) foxjony 8.03.2020
 // https://github.com/foxjony/NioChatServer
 // https://www.codeflow.site/ru/article/java-nio-selector
 
-// M~13~3336~6~1~0~12~555~R 		(M, obl, city, st, typ,   0, id, order, msg) Register
-// M~13~3336~6~1~13~12~555~text 	(M, obl, city, st, typ, uid, id, order, msg) Message
+// M~13~3336~6~1~0~12~555~R     (M, obl, city, st, typ,   0, id, order, msg) Register
+// M~13~3336~6~1~13~12~555~text (M, obl, city, st, typ, uid, id, order, msg) Message uid 13
+// M~13~3336~6~1~13~12~555~text (M, obl, city, st, typ, uid, id, order, msg) Message obl 13, typ 1 
 
 import java.io.IOException;
 import java.net.Socket;
@@ -147,7 +149,6 @@ public class NioChatServer implements Runnable {
 		}
 	}
 
-	// broadcast(int obl, int city, int st, int typ, int uid, int id, int order, String msg)
 	private void broadcast(int obl, int typ, int uid, String msg) throws IOException {
 		ByteBuffer msgBuf = ByteBuffer.wrap(msg.getBytes());
 		String user;
