@@ -3,9 +3,9 @@
 // https://github.com/foxjony/NioChatServer
 // https://www.codeflow.site/ru/article/java-nio-selector
 
-// M~13~3336~6~1~0~12~555~R     (M, obl, city, st, typ,   0, id, order, msg) Register
+// M~13~3336~6~1~0~12~0~R       (M, obl, city, st, typ,   0, id,     0, msg) Register
 // M~13~3336~6~1~13~12~555~text (M, obl, city, st, typ, uid, id, order, msg) Message uid 13
-// M~13~3336~6~1~13~12~555~text (M, obl, city, st, typ, uid, id, order, msg) Message obl 13, typ 1 
+// M~13~3336~6~1~0~12~555~text  (M, obl, city, st, typ,   0, id, order, msg) Message obl 13, typ 1 
 
 import java.io.IOException;
 import java.net.Socket;
